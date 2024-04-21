@@ -4,7 +4,7 @@ import waze from "../../assets/waze.png"
 const BannerRegister = () => {
     return(
         <>
-             <section className="bg-hero-register-img h-[657px] w-[1280px] bg-no-repeat flex text-white font-OP">
+             <section className="bg-[url('assets/register.png')] h-[657px] w-[1280px] bg-no-repeat flex text-white font-OP">
                 <div className="px-[100px] h-full w-full bg-gradient-to-t from-[#0000008a] to-[#000000e6] to-9% flex flex-col justify-center items-center">
                     <h2 className="font-bold text-[40px]  mb-[11px] w-[513px] h-[54px] text-center ">¡Gracias por registrarte!</h2>
 

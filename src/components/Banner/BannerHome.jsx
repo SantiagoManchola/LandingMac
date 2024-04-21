@@ -3,7 +3,7 @@ import gorra from "../../assets/gorra.png"
 const BannerHome = () => {
     return(
         <>
-            <section className="bg-hero-img h-[962px] w-[1280px] bg-no-repeat font-OP">
+            <section className="bg-[url('assets/banner_image.png')] h-[962px] w-[1280px] bg-no-repeat font-OP">
                 <div className="px-[100px] h-full bg-gradient-to-t from-black from-30% to-transparent to-70%">
                     <div className="flex flex-row pt-[507px]">
                         <div className="flex flex-col w-[508px]  mr-[30px] pb-[40px] justify-start">
