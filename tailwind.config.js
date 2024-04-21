@@ -23,8 +23,8 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'hero-img': "url('./src/assets/banner_image.png')",
-        'hero-register-img': "url('./src/assets/register.png')",
+        'hero-img': "url('./banner_image.png')",
+        'hero-register-img': "url('.register.png')",
       },
       keyframes: {
         StickyHeader: {
