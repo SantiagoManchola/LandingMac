@@ -1,3 +1,5 @@
+import { Link, Outlet } from "react-router-dom";
+
 const RegisterForm = () => {
     return(
         <>
@@ -315,10 +317,10 @@ const RegisterForm = () => {
                                     </div>
                             </div>
 
-                            <button className="bg-black text-white uppercase text-base font-extrabold h-[35px] w-[513px]">Enviar</button>
-
+                            <Link to="/register" className="text-center items-center bg-black text-white uppercase text-base font-extrabold h-[35px] w-[513px]">Enviar</Link>
                         </form>
                     </div>
+                    <Outlet/>
             </section>
         </>
     )

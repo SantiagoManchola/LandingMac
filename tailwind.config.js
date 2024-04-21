@@ -23,7 +23,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'hero-img': "url('./src/assets/banner_image.jpeg')",
+        'hero-img': "url('./src/assets/banner_image.png')",
         'hero-register-img': "url('./src/assets/register.png')",
       },
       keyframes: {
