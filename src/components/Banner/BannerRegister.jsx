@@ -4,15 +4,15 @@ import waze from "../../assets/waze.png"
 const BannerRegister = () => {
     return(
         <>
-             <section className="bg-[url('assets/register.png')] h-[657px] w-[1280px] bg-no-repeat flex text-white font-OP">
-                <div className="px-[100px] h-full w-full bg-gradient-to-t from-[#0000008a] to-[#000000e6] to-9% flex flex-col justify-center items-center">
-                    <h2 className="font-bold text-[40px]  mb-[11px] w-[513px] h-[54px] text-center ">¡Gracias por registrarte!</h2>
+             <section className="bg-[url('assets/register.png')] xl:h-[657px] xl:w-[1280px] bg-no-repeat flex text-white font-OP">
+                <div className="xl:px-[100px] px-2 h-full w-full bg-gradient-to-t from-[#0000008a] to-[#000000e6] to-9% flex flex-col justify-center items-center xl:pt-0 xl:pb-0 pt-20 pb-20">
+                    <h2 className="font-bold xl:text-[40px]  mb-[11px] xl:w-[513px] xl:h-[54px] text-center text-3xl">¡Gracias por registrarte!</h2>
 
-                    <p className="font-semibold text-[16px] text-center mb-[23px]">Puedes reclamar tu premio en Bogotá PracoDidacol sede Calle 80. <br />
+                    <p className="font-semibold xl:text-[16px] text-center mb-[23px]">Puedes reclamar tu premio en Bogotá PracoDidacol sede Calle 80. <br />
                     <span className="font-bold">Dirección: Calle 80 Autopista Medellín, Km 1.2 vía Siberia Costado Sur.</span>
                     </p>
 
-                    <div className="justify-between flex gap-[12px] border-t-[2px] border-b-[2px] border-white border-l-0 border-r-0 py-[13px] items-center">
+                    <div className="justify-between flex xl:gap-[12px] gap-2 border-t-[2px] border-b-[2px] border-white border-l-0 border-r-0 py-[13px] items-center">
                         <div className="bg-white flex rounded-full border-2 border-white items-center justify-center w-[39px] h-[39px]">
                             <svg className="" width="19" height="27" viewBox="0 0 20 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M10.3642 0.965942C5.16996 0.965942 0.943359 5.19254 0.943359 10.3868C0.943359 12.1419 1.43013 13.8555 2.35025 15.3415L9.82793 27.3941C9.9704 27.6256 10.2237 27.7661 10.4948 27.7661C10.4967 27.7661 10.4987 27.7661 10.5007 27.7661C10.7738 27.7641 11.0271 27.6197 11.1675 27.3842L18.4553 15.2149C19.3239 13.7605 19.785 12.0905 19.785 10.3887C19.787 5.19254 15.5604 0.965942 10.3642 0.965942ZM17.1097 14.4076L10.4829 25.4707L3.68392 14.5144C2.91815 13.2777 2.50261 11.851 2.50261 10.3868C2.50261 6.05726 6.03467 2.52519 10.3642 2.52519C14.6937 2.52519 18.2198 6.05726 18.2198 10.3868C18.2218 11.8055 17.8339 13.1966 17.1097 14.4076Z" fill="black"/>
@@ -20,15 +20,15 @@ const BannerRegister = () => {
                             </svg>
                         </div>
 
-                        <h3 className="font-extrabold text-2xl">¡Quiero ir por mi premio!</h3>
+                        <h3 className="font-extrabold xl:text-2xl text-center">¡Quiero ir por mi premio!</h3>
                         
                         <img className="h-[29px] w-[68px] rounded-md" src={waze} alt="" />
                         
                     </div>
 
-                    <p className=" h-[97px] w-[816px] text-base leading-5 font-semibold bg-redDark text-center pt-[16px] mb-[40px] mt-[35px]">No olvides que para reclamar tu premio debes ser el dueño del camión MACK y debes presentar <br /> la tarjeta de propiedad de tu vehículo MACK. Si por algún motivo no puedes reclamar el premio <br />personalmente, debes enviar un correo autorizando a la persona que va a reclamarlo.</p>
+                    <p className="xl:pb-0 pb-5 xl:h-[97px] xl:w-[816px] w-full text-base leading-5 font-semibold bg-redDark text-center pt-[16px] mb-[40px] mt-[35px]">No olvides que para reclamar tu premio debes ser el dueño del camión MACK y debes presentar <br /> la tarjeta de propiedad de tu vehículo MACK. Si por algún motivo no puedes reclamar el premio <br />personalmente, debes enviar un correo autorizando a la persona que va a reclamarlo.</p>
 
-                    <svg width="378" height="44" viewBox="0 0 378 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="xl:w-[378px] xl:h-[44px]" viewBox="0 0 378 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M342.38 -5.41473e-05L35.6865 9.05103L36.484 36.0735L343.178 27.0224L342.38 -5.41473e-05Z" fill="white"/>
                         <path d="M31.0782 13.5189C31.4617 22.9618 31.8452 32.4118 32.2359 41.8547C21.5123 42.2743 10.796 42.7013 0.0723633 43.1209C5.4414 38.8084 10.8032 34.4958 16.1722 30.1832C10.7815 24.9661 5.39074 19.749 0 14.5319C10.3546 14.1991 20.7164 13.859 31.0782 13.5189Z" fill="white"/>
                         <path d="M346.759 30.675C346.375 21.2322 345.992 11.7821 345.601 2.33928C356.325 1.9196 367.041 1.49268 377.765 1.073C372.396 5.38559 367.034 9.69818 361.665 14.0108C367.056 19.2279 372.446 24.4449 377.837 29.662C367.482 29.9949 357.121 30.3349 346.759 30.675Z" fill="white"/>

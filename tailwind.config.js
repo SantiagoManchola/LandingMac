@@ -22,10 +22,6 @@ export default {
       redDark: "#D30507",
     },
     extend: {
-      backgroundImage: {
-        /* 'hero-img': "url('./banner_image.png')",
-        'hero-register-img': "url('.register.png')", */
-      },
       keyframes: {
         StickyHeader: {
           '0%': {

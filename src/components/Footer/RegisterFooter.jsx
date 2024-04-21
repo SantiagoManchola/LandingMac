@@ -1,7 +1,7 @@
 const RegisterFooter = () => {
     return(
         <>
-             <footer className="flex flex-row justify-end w-[1280px] max-h-[60px] py-[13px] px-[100px] bg-cafe leading-[9px] text-white items-center font-OP">
+             <footer className="flex flex-row xl:justify-end justify-center xl:w-[1280px] xl:max-h-[60px] py-[13px] xl:px-[100px] bg-cafe leading-[9px] text-white items-center font-OP">
                 <div className="flex justify-between gap-[10px]">
                     <button className="flex rounded-full border-2 border-white items-center justify-center w-[34px] h-[34px]" >
                         <svg width="9.36" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">

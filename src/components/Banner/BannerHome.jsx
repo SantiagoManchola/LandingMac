@@ -3,10 +3,14 @@ import gorra from "../../assets/gorra.png"
 const BannerHome = () => {
     return(
         <>
-            <section className="bg-[url('assets/banner_image.png')] h-[962px] w-[1280px] bg-no-repeat font-OP">
-                <div className="px-[100px] h-full bg-gradient-to-t from-black from-30% to-transparent to-70%">
-                    <div className="flex flex-row pt-[507px]">
-                        <div className="flex flex-col w-[508px]  mr-[30px] pb-[40px] justify-start">
+            <section className="bg-[url('assets/banner_image.png')] xl:h-[962px] xl:w-[1280px] bg-no-repeat font-OP">
+                <div className="xl:px-[100px] xl:h-full xl:bg-gradient-to-t bg-gradient-to-t from-black from-20% to-transparent to-100% xl:from-black xl:from-30% xl:to-transparent xl:to-70% w-full px-2">
+                    <div className="flex xl:flex-row flex-col xl:pt-[507px] pt-[50px] justify-center items-center">
+                        <div className=" text-cafe font-bold xl:h-[19px] xl:w-[95] xl:hidden text-4xl mb-5">
+                            Regístrate
+                        </div>
+                        
+                        <div className="flex flex-col  xl:w-[508px] xl:mr-[30px] xl:pb-[40px] xl:justify-start">
                             <svg className="pb-[42px]" viewBox="0 0 509 185" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M31.844 22.1654C31.9059 22.1585 33.8725 37.0454 33.8243 37.0798C28.6742 41.128 25.3324 43.4923 21.1518 46.7019C21.0555 46.75 20.9593 46.805 20.8699 46.8531C24.7411 38.152 27.9453 30.9491 31.844 22.1654Z" fill="#E4E4E4"/>
                                 <path d="M31.844 22.1654C32.6691 27.7531 33.1298 31.5814 33.8243 37.0798C41.9174 40.5231 52.7815 45.0868 61.019 48.6676C51.4407 39.554 41.4292 31.2721 31.844 22.1654Z" fill="white"/>
@@ -120,10 +124,10 @@ const BannerHome = () => {
                                 <path d="M498.906 110.325L506.703 109.961L507.068 117.755L499.27 118.119L498.906 110.325ZM505.809 95.2664L504.469 107.975L500.989 108.139L498.473 95.6169L498.129 88.2009L505.466 87.8573L505.809 95.2664Z" fill="white"/>
                             </svg>
 
-                            <p className="w-[507px] h-[189px] text-white text-xl text-justify font-normal">Este año estamos rindiendo tributo a nuestra marca <span className="font-bold">Mack la cual lleva 100 años rodando por las carreteras de Colombia</span >  y queremos hacerte parte de esta celebración.<br/><br/>Si eres dueño de un camión Mack <span className="font-bold">¡YA GANASTE!, SOLO REGÍSTRATE Y RECLAMA TUS PREMIOS.</span></p>
+                            <p className="xl:w-[507px] xl:h-[189px] w-full text-white text-xl text-justify font-normal">Este año estamos rindiendo tributo a nuestra marca <span className="font-bold">Mack la cual lleva 100 años rodando por las carreteras de Colombia</span >  y queremos hacerte parte de esta celebración.<br/><br/>Si eres dueño de un camión Mack <span className="font-bold">¡YA GANASTE!, SOLO REGÍSTRATE Y RECLAMA TUS PREMIOS.</span></p>
                         </div>
 
-                        <div className="flex pl-[30px] w-[555px] pb-[66px] justify-center items-center">
+                        <div className="flex xl:pl-[30px] xl:w-[555px] xl:pb-[66px] justify-center items-center w-auto mb-5">
                             <img src={gorra} height="303" width="359" alt="" />
                         </div>
                     </div>
