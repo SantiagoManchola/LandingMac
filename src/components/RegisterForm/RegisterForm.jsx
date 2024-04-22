@@ -3,12 +3,12 @@ import { Link, Outlet } from "react-router-dom";
 const RegisterForm = () => {
     return(
         <>
-            <section className="font-OP bg-bone xl:h-[833px]  xl:w-[1280px] xl:px-[100px] px-2">
+            <section className="font-OP bg-bone xl:h-[833px]  xl:w-full xl:px-[100px] px-2">
                 <div className="xl:px-[112px] xl:pt-[45px] xl:pb-[36px] text-center pt-[20px]">
                     <h2 className="pb-[18px] font-extrabold uppercase xl:text-5xl text-3xl">regístrate y gana</h2>
                     <p className="text-base font-medium">Los datos registrados deben pertenecer a la persona que figura en la tarjeta de propiedad del vehículo MACK; <br /> si una persona tiene más de un (1) camión MACK a su nombre sólo se puede inscribir una vez.</p>
                 </div>
-                    <div className="flex xl:flex-row flex-col">
+                    <div className="flex xl:flex-row flex-col xl:justify-center">
                         <div className="xl:w-[637px] xl:pr-[30px] justify-start" >
                         <svg className="xl:mb-[48px] mb-6 xl:w-[507px] xl:h-[159px]" viewBox="0 0 507 159" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path opacity="0.2" d="M481.034 128.724L51.4468 141.157C42.1169 141.941 34.2695 134.242 34.8762 124.895L41.6876 56.163C41.9853 51.6068 45.8031 48.0809 50.3707 48.1553L470.594 54.0509C484.045 54.2684 494.577 65.6932 493.695 79.1157L488.859 120.745C488.584 124.975 485.253 128.37 481.034 128.724Z" fill="black"/>
