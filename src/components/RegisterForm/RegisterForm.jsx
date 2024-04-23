@@ -10,28 +10,28 @@ const RegisterForm = () => {
         <>
             <section className="font-OP bg-bone xl:h-[824px] xl:w-full xl:px-[100px] px-2">
                 <div className="xl:px-[112px] xl:pt-[45px] xl:pb-[36px] text-center pt-[20px]">
-                    <h2 className="pb-[18px] font-extrabold uppercase xl:text-5xl xl:leading-[66px] text-3xl">regístrate y gana</h2>
-                    <p className="text-base xl:leading-[23px] font-medium">Los datos registrados deben pertenecer a la persona que figura en la tarjeta de propiedad del vehículo MACK; <br /> si una persona tiene más de un (1) camión MACK a su nombre sólo se puede inscribir una vez.</p>
+                    <h2 className="pb-[6px] font-extrabold uppercase xl:text-5xl xl:leading-[66px] text-3xl">regístrate y gana</h2>
+                    <p className="text-[16px] xl:leading-[23px] font-semibold xl:mb-[10px]">Los datos registrados deben pertenecer a la persona que figura en la tarjeta de propiedad del vehículo MACK; <br /> si una persona tiene más de un (1) camión MACK a su nombre sólo se puede inscribir una vez.</p>
                 </div>
                     <div className="flex xl:flex-row flex-col xl:justify-center xl:h-[613px]">
                         <div className="xl:w-[670px] xl:mr-[30px] xl:justify-start xl:items-start flex flex-col justify-center items-center" >
-                            <img className="xl:mb-[30px] mb-6 xl:w-[507px] xl:h-[159px] max-w-[546px] xl:max-w-full"  src={first100} alt="" />
+                            <img className="xl:mb-[30px] mb-6 xl:w-[507px] xl:h-[159px] max-w-[546px]"  src={first100} alt="" />
                             <ul className="text-base font-semibold">
                                     <li className="leading-[22px] flex xl:item-start xl:justify-start align-top gap-[14px] mb-[27px] justify-center xl:text-start"><img src={gift} alt="" />
                                     <span>*Una gorra emblemática Mack..</span></li>
 
-                                    <li className="leading-[22px] flex gap-[15px] xl:item-start xl:justify-start mb-[25px] justify-center text-center xl:text-start"><img className="max-w-[25px]" src={disccount} alt="" /><span>**<strong>25% de descuento en repuestos</strong> instalados en taller el día
+                                    <li className="leading-[22px] flex gap-[15px] xl:justify-start xl:items-start mb-[25px] justify-center text-center xl:text-start"><img className="max-w-[25px]" src={disccount} alt="" /><span>**<strong>25% de descuento en repuestos</strong> instalados en taller el día
                                     que reclames tu premio o <strong>15% de descuento en repuestos</strong>  comprados por
                                     mostrador el día que reclames tu premio.</span></li>
 
-                                    <li className="leading-[22px] flex xl:item-start xl:justify-start xl:items-start gap-[14px] mb-[48px] justify-center text-center xl:text-start"><img className="max-w-[25px]" src={id} alt="" /><span>***Una tarjeta de miembro Jauría Mack para acceder a descuentos especiales. (Aplica para el año 2023)</span></li>
+                                    <li className="leading-[22px] flex xl:justify-start xl:items-start gap-[14px] mb-[48px] justify-center text-center xl:text-start"><img className="max-w-[25px]" src={id} alt="" /><span>***Una tarjeta de miembro Jauría Mack para acceder a descuentos especiales. (Aplica para el año 2023)</span></li>
                             </ul>
                             <img className="mb-[22px] xl:w-[407px] xl:h-[95px] max-w-[546px] xl:max-w-full" src={celebrate} alt="" />
 
-                            <p className="text-xs font-semibold mb-[18px]"><strong>Válido sólo para Colombia.</strong><br />Los premios no aplican para convenios de flotas.
+                            <p className="text-xs font-semibold leading-[13px] mb-[18px]"><strong>Válido sólo para Colombia.</strong><br />Los premios no aplican para convenios de flotas.
                             </p>
                         </div>
-                        <form className="xl:mt-0 mt-10 flex flex-col xl:w-[637px] xl:ml-[30px] xl:mb-auto justify-start">
+                        <form className="xl:mt-0 mt-10 flex flex-col xl:w-[637px] xl:ml-[30px]  justify-start">
                             <div className="flex justify-between xl:flex-row flex-col">
                                 <div className="flex flex-col ">
                                     <div className="flex flex-col gap-[9px] mb-[11px]">
@@ -76,11 +76,11 @@ const RegisterForm = () => {
                                     <textarea readOnly className="bg-boneSecondary h-[66px] mb-[12px] w-full leading-[12px] font-semibold tracking-[0px] text-[9px] border-2 border-cafe outline-none pt-[7px] pb-[12px] pl-[14px] pr-[22px]" type="text" value="Declaro que he sido informado por el grupo empresarial compuesto por las sociedades Praco Didacol S.A.S, Distribuidora Hino de Colombia S.A.S, Inmobiliaria Inchcape Colombia S.A.S y Matrase S.A.S,; en adelante Las Compañías, que serán el Responsable del Tratamiento de mis Datos Personales, por lo que autorizo de manera previa,"/>
                                     <div className="flex gap-[69px] justify-start items-center">
                                         <div className="items-center gap-[7px] flex text-cafe">
-                                            <input name="select" className="after:bg-boneSecondary after:border-solid after:border-cafe" type="radio" value="true"/>
+                                            <input name="select" className="accent-cafe" type="radio" value="true"/>
                                             <span className="font-bold  text-[13px]">Acepto</span>
                                         </div>
                                         <div className="items-center gap-[7px] flex text-cafe">
-                                            <input name="select" className="bg-boneSecondary" type="radio" value="false"/>
+                                            <input name="select" className="accent-cafe" type="radio" value="false"/>
                                             <span className="font-bold text-[13px]">No acepto</span>
                                         </div>
                                     </div>
