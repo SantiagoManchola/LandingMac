@@ -20,15 +20,15 @@ const Header = () => {
                         Regístrate
                     </div>
                     <div className="flex justify-between gap-[10px]">
-                        <button id="facebook" className="flex rounded-full border-2 border-[#84754E] items-center justify-center w-[34px] xl:h-[34px]" >
+                        <button id="facebook1" className="flex rounded-full border-2 border-[#84754E] items-center justify-center w-[34px] xl:h-[34px]" >
                             <img src={facebook} alt="" />
                         </button>
 
-                        <button id="instagram" className="flex rounded-full border-2 border-[#84754E] items-center justify-center w-[34px] h-[34px]" >
+                        <button id="instagram1" className="flex rounded-full border-2 border-[#84754E] items-center justify-center w-[34px] h-[34px]" >
                             <img className="text-white" src={instagram} alt="" />
                         </button>
 
-                        <button id="youtube" className="flex rounded-full border-2 border-[#84754E] items-center justify-center w-[34px] h-[34px]" >
+                        <button id="youtube1" className="flex rounded-full border-2 border-[#84754E] items-center justify-center w-[34px] h-[34px]" >
                              <img src={youtube} alt="" />
                         </button>
                     </div>

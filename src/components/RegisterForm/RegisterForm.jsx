@@ -77,11 +77,11 @@ const RegisterForm = () => {
                                     <div className="flex gap-[69px] justify-start items-center">
                                         <div className="items-center gap-[7px] flex text-cafe">
                                             <input id="accept" name="select" className="accent-cafe" type="radio" value="true"/>
-                                            <span htmlFor="accept" className="font-bold  text-[13px]">Acepto</span>
+                                            <label htmlFor="accept" className="font-bold  text-[13px]">Acepto</label>
                                         </div>
                                         <div className="items-center gap-[7px] flex text-cafe">
                                             <input id="decline" name="select" className="accent-cafe" type="radio" value="false"/>
-                                            <span htmlFor="decline" className="font-bold text-[13px]">No acepto</span>
+                                            <label htmlFor="decline" className="font-bold text-[13px]">No acepto</label>
                                         </div>
                                     </div>
                             </div>
