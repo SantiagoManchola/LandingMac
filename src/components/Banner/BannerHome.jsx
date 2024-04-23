@@ -1,10 +1,10 @@
-import gorra from "../../assets/bannerItems/gorra.png"
+import gorra from "../../assets/bannerItems/gorra.webp"
 import invitacion from "../../assets/bannerItems/invitacion.svg"
 
 const BannerHome = () => {
     return(
         <>
-            <section className="bg-[url('assets/bannerItems/banner_image.jpeg')] bg-[center_top_45%] xl:bg-[75%_77%] xl:h-[945px] bg-no-repeat font-OP">
+            <section className="bg-[url('assets/bannerItems/banner_image.webp')] bg-[center_top_45%] xl:bg-[75%_77%] xl:h-[945px] bg-no-repeat font-OP">
                 <div className="xl:px-[100px] xl:h-full xl:bg-gradient-to-t bg-gradient-to-b from-[#00000066] from-10% to-black to-100% xl:from-black xl:from-30% xl:to-transparent xl:to-70% w-full px-2">
                     <div className="flex xl:flex-row flex-col xl:pt-[507px] pt-[50px] justify-center items-center">
                         <div className=" text-white text font-bold xl:h-[19px] -mt-10 xl:w-[95] xl:hidden text-4xl mb-5">

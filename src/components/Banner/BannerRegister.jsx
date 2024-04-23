@@ -1,4 +1,4 @@
-import waze from "../../assets/registerBannerItems/waze.png"
+import waze from "../../assets/registerBannerItems/waze.webp"
 import location from "../../assets/registerBannerItems/location.svg"
 import soyjauriamack from "../../assets/registerBannerItems/soyjauriamack.svg"
 
@@ -6,7 +6,7 @@ import soyjauriamack from "../../assets/registerBannerItems/soyjauriamack.svg"
 const BannerRegister = () => {
     return(
         <>
-             <section className="bg-[url('assets/registerR.jpeg')] bg-[65%] 2xl:bg-cover xl:bg-[center_top_75%] xl:w-full bg-no-repeat flex text-white font-OP xl:min-h-[calc(100vh-107px-60px)] min-h-[calc(100vh-55px-60px)]">
+             <section className="bg-[url('assets/registerR.webp')] bg-[65%] 2xl:bg-cover xl:bg-[center_top_75%] xl:w-full bg-no-repeat flex text-white font-OP xl:min-h-[calc(100vh-107px-60px)] min-h-[calc(100vh-55px-60px)]">
                 <div className="xl:px-[100px] px-2 w-full bg-gradient-to-t from-[#0000008a] to-[#000000e6] to-9% flex flex-col justify-center items-center xl:py-0 pt-20 pb-20 xl:pt-[139px] xl:pb-[112px]">
                     <h2 className="font-bold xl:text-[40px] mb-[11px] xl:w-[513px] xl:h-[54px] text-center text-[40px]">¡Gracias por registrarte!</h2>
 
