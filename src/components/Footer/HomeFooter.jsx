@@ -11,13 +11,13 @@ const HomeFooter = () => {
                 </div>
 
                 <div className="flex xl:justify-between justify-center gap-[10px] pt-[22px] ml-[30px]">
-                    <button className="flex rounded-full border-2 border-white items-center justify-center w-[34px] h-[34px]" >
+                    <button name="facebook" className="flex rounded-full border-2 border-white items-center justify-center w-[34px] h-[34px]" >
                         <img src={facebook} alt="" />
                     </button>
-                    <button className="flex rounded-full border-2 border-white items-center justify-center w-[34px] h-[34px]" >
+                    <button name="instagram" className="flex rounded-full border-2 border-white items-center justify-center w-[34px] h-[34px]" >
                         <img src={instagram} alt="" />
                     </button>
-                    <button className="flex rounded-full border-2 border-white items-center justify-center w-[34px] h-[34px]" >
+                    <button name="youtube" className="flex rounded-full border-2 border-white items-center justify-center w-[34px] h-[34px]" >
                         <img src={youtube} alt="" />
                     </button>
                 </div>

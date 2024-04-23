@@ -35,53 +35,53 @@ const RegisterForm = () => {
                             <div className="flex justify-between xl:flex-row flex-col">
                                 <div className="flex flex-col ">
                                     <div className="flex flex-col gap-[9px] mb-[11px]">
-                                        <label className="font-extrabold leading-[19px] text-sm">Nombres *</label>
-                                        <input className="border-2 border-cafe outline-none font-normal bg-boneSecondary h-[30px]"  type="text" />
+                                        <label htmlFor="firstname" className="font-extrabold leading-[19px] text-sm">Nombres *</label>
+                                        <input id="nombre" className="border-2 border-cafe outline-none font-normal bg-boneSecondary h-[30px]"  type="text" />
                                     </div>
                                     <div className="flex flex-col gap-[6px] mb-[11px]">
-                                        <label className="font-extrabold leading-[19px] text-sm">Número de Celular *</label>
-                                        <input className="border-2 border-cafe outline-none font-normal bg-boneSecondary h-[30px]"  type="text" />
+                                        <label htmlFor="num" className="font-extrabold leading-[19px] text-sm">Número de Celular *</label>
+                                        <input id="num" className="border-2 border-cafe outline-none font-normal bg-boneSecondary h-[30px]"  type="text" />
                                     </div>
                                 </div>
                                 <div className="flex flex-col xl:w-[57%] justify-end">
                                     <div className="flex flex-col gap-[9px] mb-[11px]">
-                                        <label className="font-extrabold leading-[19px] text-sm">Apellidos *</label>
-                                        <input className="border-2 border-cafe outline-none font-normal bg-boneSecondary h-[30px]"  type="text" />
+                                        <label htmlFor="apellidos" className="font-extrabold leading-[19px] text-sm">Apellidos *</label>
+                                        <input id="apellidos" className="border-2 border-cafe outline-none font-normal bg-boneSecondary h-[30px]"  type="text" />
                                     </div>
                                     <div className="flex flex-col gap-[6px] mb-[11px]">
-                                        <label className="font-extrabold leading-[19px] text-sm">Cédula *</label>
-                                        <input className="border-2 border-cafe outline-none font-normal bg-boneSecondary h-[30px]"  type="text" />
+                                        <label htmlFor="cedula" className="font-extrabold leading-[19px] text-sm">Cédula *</label>
+                                        <input id="cedula" className="border-2 border-cafe outline-none font-normal bg-boneSecondary h-[30px]"  type="text" />
                                     </div>
                                 </div>
                             </div>
                             
                             <div className="flex flex-col gap-[6px] mb-[11px]">
-                                <label className="font-extrabold text-sm leading-[19px]">Placa del camión *</label>
-                                <input className="border-2 border-cafe outline-none font-normal bg-boneSecondary h-[30px]"  type="text" />
+                                <label htmlFor="placa" className="font-extrabold text-sm leading-[19px]">Placa del camión *</label>
+                                <input id="placa" className="border-2 border-cafe outline-none font-normal bg-boneSecondary h-[30px]"  type="text" />
                             </div>
 
                             <div className="flex flex-col gap-[6px] mb-[11px]">
-                                <label className="font-extrabold text-sm  leading-[19px]">Correo eletrónico *</label>
-                                <input className="border-2 border-cafe  outline-none font-normal bg-boneSecondary h-[30px]"  type="text" />
+                                <label htmlFor="correo" className="font-extrabold text-sm  leading-[19px]">Correo eletrónico *</label>
+                                <input id="correo" className="border-2 border-cafe  outline-none font-normal bg-boneSecondary h-[30px]"  type="text" />
                             </div>
 
                             <div className="flex flex-col gap-[6px] mb-[11px]">
-                                <label className="font-extrabold text-sm leading-[19px] ">¿En que taller deseas reclamar tu premio? *</label>
-                                <select required autoComplete="false" className="border-2 border-cafe outline-none font-normal bg-boneSecondary h-[30px]">
+                                <label htmlFor="taller" className="font-extrabold text-sm leading-[19px] ">¿En que taller deseas reclamar tu premio? *</label>
+                                <select id="taller" autoComplete="false" className="border-2 border-cafe outline-none font-normal bg-boneSecondary h-[30px]">
                                 </select>
                             </div>
 
                             <div className="flex flex-col gap-[4px] mb-[36px] ">
-                                    <label className="font-extrabold leading-[19px] text-sm">Autorización para el uso y tratamiento de datos e información <br />personal</label>
-                                    <textarea readOnly className="bg-boneSecondary h-[66px] mb-[12px] w-full leading-[12px] font-semibold tracking-[0px] text-[9px] border-2 border-cafe outline-none pt-[7px] pb-[12px] pl-[14px] pr-[22px]" type="text" value="Declaro que he sido informado por el grupo empresarial compuesto por las sociedades Praco Didacol S.A.S, Distribuidora Hino de Colombia S.A.S, Inmobiliaria Inchcape Colombia S.A.S y Matrase S.A.S,; en adelante Las Compañías, que serán el Responsable del Tratamiento de mis Datos Personales, por lo que autorizo de manera previa,"/>
+                                    <label htmlFor="texto" className="font-extrabold leading-[19px] text-sm">Autorización para el uso y tratamiento de datos e información <br />personal</label>
+                                    <textarea id="texto" readOnly className="bg-boneSecondary h-[66px] mb-[12px] w-full leading-[12px] font-semibold tracking-[0px] text-[9px] border-2 border-cafe outline-none pt-[7px] pb-[12px] pl-[14px] pr-[22px]" type="text" value="Declaro que he sido informado por el grupo empresarial compuesto por las sociedades Praco Didacol S.A.S, Distribuidora Hino de Colombia S.A.S, Inmobiliaria Inchcape Colombia S.A.S y Matrase S.A.S,; en adelante Las Compañías, que serán el Responsable del Tratamiento de mis Datos Personales, por lo que autorizo de manera previa,"/>
                                     <div className="flex gap-[69px] justify-start items-center">
                                         <div className="items-center gap-[7px] flex text-cafe">
-                                            <input name="select" className="accent-cafe" type="radio" value="true"/>
-                                            <span className="font-bold  text-[13px]">Acepto</span>
+                                            <input htmlFor="accept" name="select" className="accent-cafe" type="radio" value="true"/>
+                                            <span id="accept" className="font-bold  text-[13px]">Acepto</span>
                                         </div>
                                         <div className="items-center gap-[7px] flex text-cafe">
-                                            <input name="select" className="accent-cafe" type="radio" value="false"/>
-                                            <span className="font-bold text-[13px]">No acepto</span>
+                                            <input htmlFor="decline" name="select" className="accent-cafe" type="radio" value="false"/>
+                                            <span id="decline" className="font-bold text-[13px]">No acepto</span>
                                         </div>
                                     </div>
                             </div>
