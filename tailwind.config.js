@@ -9,7 +9,7 @@ export default {
   theme: {
 
     fontFamily:{
-      OP: 'Open Sans',
+      'OP': ['"Open Sans"', "ui-sans-serif", "system-ui", "sans-serif"],
     },
 
     colors:{
@@ -21,21 +21,7 @@ export default {
       boneSecondary: "#EAEAEA",
       redDark: "#D30507",
     },
-    extend: {
-      keyframes: {
-        StickyHeader: {
-          '0%': {
-            transform: 'translateY(-60px)',
-          },
-          '100%': {
-            transform: 'translateY(0)',
-          },
-        },
-      },
-      animation: {
-        stickyHeader : 'StickyHeader 0.3s ease forwards',
-      }
-    },
+    extend: {},
   },
   plugins: [],
 }
