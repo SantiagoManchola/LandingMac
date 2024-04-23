@@ -1,4 +1,3 @@
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import gorra from "../../assets/bannerItems/gorra.webp"
 import invitacion from "../../assets/bannerItems/invitacion.svg"
 
@@ -13,13 +12,13 @@ const BannerHome = () => {
                         </div>
                         
                         <div className="flex flex-col  xl:w-[508px] xl:mr-[30px] xl:pb-[23px] xl:justify-start max-w-[546px]">
-                            <LazyLoadImage className="xl:mb-[42px] mb-5" src={invitacion} alt="" />
+                            <img className="xl:mb-[42px] mb-5" src={invitacion} alt="" />
 
                             <p className="xl:w-[507px] xl:mb-[28px] w-full text-white text-xl leading-[23px] text-justify font-normal">Este año estamos rindiendo tributo a nuestra marca <span className="font-bold">Mack la cual lleva 100 años rodando por las carreteras de Colombia</span >  y queremos hacerte parte de esta celebración.<br/><br/>Si eres dueño de un camión Mack <span className="font-bold">¡YA GANASTE!, SOLO REGÍSTRATE Y RECLAMA TUS PREMIOS. <br /></span></p>
                         </div>
 
                         <div className="flex xl:ml-[30px] xl:w-[555px]  justify-center items-center w-auto xl:mt-[57px] xl:mb-[79px] mb-10">
-                            <LazyLoadImage src={gorra} height="303" width="359" alt="" />
+                            <img src={gorra} height="303" width="359" alt="" />
                         </div>
                     </div>
                 </div>
