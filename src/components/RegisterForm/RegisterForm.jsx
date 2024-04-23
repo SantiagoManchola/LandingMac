@@ -4,6 +4,7 @@ import disccount from "../../assets/formItems/disccount.svg"
 import id from "../../assets/formItems/id.svg"
 import celebrate from "../../assets/formItems/celebrate.svg"
 import { Link, Outlet } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component"
 
 const RegisterForm = () => {
     return(
@@ -15,18 +16,18 @@ const RegisterForm = () => {
                 </div>
                     <div className="flex xl:flex-row flex-col xl:justify-center xl:h-[613px]">
                         <div className="xl:w-[670px] xl:mr-[30px] xl:justify-start xl:items-start flex flex-col justify-center items-center" >
-                            <img className="xl:mb-[30px] mb-6 xl:w-[507px] xl:h-[159px] max-w-[546px]"  src={first100} alt="" />
+                            <LazyLoadImage className="xl:mb-[30px] mb-6 xl:w-[507px] xl:h-[159px] max-w-[546px]"  src={first100} alt="" />
                             <ul className="text-base font-semibold">
-                                    <li className="leading-[22px] flex xl:item-start xl:justify-start align-top gap-[14px] mb-[27px] justify-center xl:text-start"><img src={gift} alt="" />
+                                    <li className="leading-[22px] flex xl:item-start xl:justify-start align-top gap-[14px] mb-[27px] justify-center xl:text-start"><LazyLoadImage src={gift} alt="" />
                                     <span>*Una gorra emblemática Mack..</span></li>
 
-                                    <li className="leading-[22px] flex gap-[15px] xl:justify-start xl:items-start mb-[25px] justify-center text-center xl:text-start"><img className="max-w-[25px]" src={disccount} alt="" /><span>**<strong>25% de descuento en repuestos</strong> instalados en taller el día
+                                    <li className="leading-[22px] flex gap-[15px] xl:justify-start xl:items-start mb-[25px] justify-center text-center xl:text-start"><LazyLoadImage className="max-w-[25px]" src={disccount} alt="" /><span>**<strong>25% de descuento en repuestos</strong> instalados en taller el día
                                     que reclames tu premio o <strong>15% de descuento en repuestos</strong>  comprados por
                                     mostrador el día que reclames tu premio.</span></li>
 
-                                    <li className="leading-[22px] flex xl:justify-start xl:items-start gap-[14px] mb-[48px] justify-center text-center xl:text-start"><img className="max-w-[25px]" src={id} alt="" /><span>***Una tarjeta de miembro Jauría Mack para acceder a descuentos especiales. (Aplica para el año 2023)</span></li>
+                                    <li className="leading-[22px] flex xl:justify-start xl:items-start gap-[14px] mb-[48px] justify-center text-center xl:text-start"><LazyLoadImage className="max-w-[25px]" src={id} alt="" /><span>***Una tarjeta de miembro Jauría Mack para acceder a descuentos especiales. (Aplica para el año 2023)</span></li>
                             </ul>
-                            <img className="mb-[22px] xl:w-[407px] xl:h-[95px] max-w-[546px] xl:max-w-full" src={celebrate} alt="" />
+                            <LazyLoadImage className="mb-[22px] xl:w-[407px] xl:h-[95px] max-w-[546px] xl:max-w-full" src={celebrate} alt="" />
 
                             <p className="text-xs font-semibold leading-[13px] mb-[18px]"><strong>Válido sólo para Colombia.</strong><br />Los premios no aplican para convenios de flotas.
                             </p>
